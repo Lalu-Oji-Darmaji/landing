@@ -1,0 +1,130 @@
+body {
+     padding: 0;
+     margin: 0;
+     scroll-behavior: smooth;
+}
+
+.container {
+     height: 100vh;
+     width: 100%;
+     background-image: url(/img/island.jpg);
+     background-size: cover;
+}
+
+.container .navbar {
+     display: flex;
+     padding: 1.5rem;
+     justify-content: center;
+}
+
+.navbar .nav-link {
+     padding: .5rem 2%;     
+}
+
+.nav-link a {
+     text-decoration: none;
+     color: white;
+     padding: .5rem;
+}
+
+.nav-link a:hover {
+     color: #d3d3d3;
+     transition: .3 ease-in-out;
+}
+
+.content {
+     color: white;
+     align-items: center;
+     text-align: center;
+     padding: 12rem 3%;
+}
+
+
+
+.content a {
+     padding: 0.5rem;
+     background-color: orangered;
+     border-radius: 1rem;
+     text-decoration: none;
+     color: white;
+}
+
+.content a:hover {
+     background-color: #00b7b7;
+}
+
+.about {
+     text-align: center;
+     padding: 2rem;
+}
+
+.about-content {
+     padding: 0 20%;
+     padding-bottom: 7rem;
+}
+
+.about-content h1 {
+     padding-top: 7rem;
+}
+
+.about a {
+     text-decoration: none;
+     padding: 0.5rem;
+     background-color: orangered;
+     color: white;
+     border-radius: 1rem;
+}
+
+.profile {
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 1rem;
+}
+
+.profile .list {
+     display: flex;
+     padding: 2rem;
+     gap: 4rem;
+}
+
+.box {
+     padding: 3rem;
+     color: #000;
+     align-items: center;
+     text-align: center;
+}
+
+.box img {
+     height: 20rem;
+     border-radius: .5rem;
+}
+
+.footer {
+     background-color: black;
+     padding: 2rem 7%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.footer p {
+     font-size:1.1rem ;
+     font-weight: bold;
+     color: orangered;
+}
+
+.footer h1 {
+     color: orangered;
+}
+
+.footer .footer-box {
+     display: grid;
+     align-items: center;
+     gap: 1rem;
+}
+
+.footer .footer-box a {
+     text-decoration: none;
+     color: white;
+}
