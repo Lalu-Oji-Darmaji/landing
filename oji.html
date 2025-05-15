@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *,
+    html {
+        padding: 0;
+        margin: 0;
+        font-family: monospace;
+    }
+
+    body{
+        height: 100vh;
+        background-image: url('/image/foto1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80%;
+    }
+
+    img {
+        width: 150px;
+        border-radius: 100%;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 10px #000;
+    }
+
+    .info{
+        margin-top: 30px;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        padding: 10px 20px 40px 20px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        box-shadow: 0px 0px 10px #000;
+    }
+
+    .info ul{
+        margin-top: 10px;
+    }
+
+    .info li{
+        display: flex;
+        list-style: none;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    span{
+        width: 60px;
+    }
+
+    .info h3{
+        text-align: center;
+        margin: 2px;
+    }
+
+    hr{
+        margin-bottom: 10px;
+        opacity: 30%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img src="/image/heart.jpg" alt="">
+        <div class="info">
+            <h3>Biodata</h3>
+            <hr>
+            <ul>
+                <li><span>Nama</span>: Lalu Oji Darmaji</li>
+                <li><span>Nim</span>: SI20230022</li>
+                <li><span>Alamat</span>: Marong</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
